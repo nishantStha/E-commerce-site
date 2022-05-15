@@ -1,0 +1,148 @@
+.outer_wrapper {
+    display: flex;
+    /* background-color: red; */
+}
+.cart_wrapper {
+    display: flex;
+    width: 65vw;
+    padding: 50px 0 0 10px;
+    margin: auto;
+    /* background-color: blue; */
+}
+
+/* => Styles for ProductContainer */
+.headings_1{
+    display: flex;
+    width: 90%;
+    color: grey;
+    font-size: 1.2vw;
+}
+.products_wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    /* background-color: green; */
+    align-items: center;
+}
+.product_name{
+    font-weight: bold;
+}
+
+.product_container {
+    padding: 10px 0 0 5px;
+    display: flex;
+    align-items: center;
+}
+
+.purchase_total {
+    width: 30%;
+    /* background-color: yellow; */
+}
+.quantity_2{
+    display: flex;
+    padding-left: 1vw;
+}
+.plus_icon {
+    display: flex;
+    border: 1px solid grey;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+.minus_icon {
+    display: flex;
+    border: 1px solid grey;
+    padding: 12.5px 5px;
+    cursor: pointer;
+}
+.amount{
+    border: 1px solid grey;
+    padding: 3px 5px;
+}
+.quantity_1{
+    padding-left: 5px;
+}
+.delete_2{
+    margin-top: 0.8vw;
+}
+.delete_2 img{
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 3px;
+    cursor: pointer;
+}
+.product_image{
+    height: 6vw;
+    padding-right: 5px;
+}
+.product_details {
+    display: flex;
+    align-items: center;
+    font-size: 1vw;
+}
+.amount{
+    font-weight: 500;
+}
+.subtotal, .product_rate, .amount {
+        font-size: small;
+}
+.product_name{
+    padding: 0px;
+    width: 12vw;
+}
+.product_rate{
+    padding-left: 1vw;
+    width: 7vw;
+}
+.quantity_2{
+    width: 6vw;
+}
+.subtotal_2{
+    width: 7vw;
+}
+.heading_name{
+    text-align: left;
+    width: 20vw;
+}
+.heading_price{
+    text-align: left;
+    width: 8vw;
+}
+.heading_quantity{
+    text-align: left;
+    width: 7vw;
+}
+.heading_subtotal{
+    text-align: left;
+    width: 6vw;
+}
+
+
+/* => Styles for Cart total */
+
+.purchase_total {
+    margin: 20px 0 50px 10px;
+    height: 32vw;
+    border: 1px solid grey;
+    text-align: left;
+    padding: 0px 25px;
+}
+.purchase_total p {
+    display: flex;
+    justify-content: space-between;
+}
+.total{
+    padding-top: 7vw;
+}
+.checkoutBtn{
+    font-size: 1vw;
+    width: 20vw;
+    padding: 12px 20px;
+    background-color: rgb(1,99,210);
+    color: rgba(255, 255, 255, 0.946);
+    border: none;
+    font-weight: 500;
+}
+.checkoutBtn:hover {
+    background-color: rgba(1, 99, 210, 0.826);
+    color: white;
+}

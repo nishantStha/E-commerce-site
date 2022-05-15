@@ -1,0 +1,47 @@
+@media only screen and (max-width: 450px){
+    .headings {
+        width: 60%;
+        margin-top: 3vw;
+    }
+    .body_image{
+        height: 80%;
+        width: 100%;
+        position: relative;
+    }
+}
+.body_image{
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+.headings {
+    width: 40%;
+    position: absolute;
+    top: 14vw;
+    left: 21.5vw;
+    text-align: left;
+    color: white;
+}
+.headings h1 {
+    font-size: 4vw;
+    margin-bottom: 2vw;
+    line-height: 5vw;
+}
+.headings p {
+    font-size: 1.35vw;
+}
+.shopBtn {
+    background-color: #222222;
+    border: 1px solid #00000036;
+    padding: 8px 22px;
+    color: rgb(241, 235, 235);
+    border-radius: 3px;
+    opacity: 1;
+    font-size: 1vw;
+    margin-top: 1.25vw;
+}
+.shopBtn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #222222be;
+}
